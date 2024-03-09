@@ -1,0 +1,66 @@
+{
+  "resume":"/resume.pdf",
+  "projects":[{
+    "name":"Sheet menu",
+    "link":"https://sheet-menu.vercel.app/",
+    "desc":"A WebApp that make you a delightful menu from google sheets with Qr",
+    "source":"",
+    "img":"/images/sheetmenu.png",
+    "techTags":["Next.Js","Prisma","Google sheets Api","PostgresSQL"],
+    "selected":true
+  }],
+  "experiences":[
+      {
+        "time": "Nov 2023 - Present",
+        "name": "Associate Engineer",
+        "role": "Hash Agile Technologies",
+        "desc": "Architected and developed multiple applications, including a Smart Saline System, Posture Detection System, and MQTT Crawler in a short timeframe, helped me to get expertise in Node.js and improve my overall software development proficiency. Worked closely with software and hardware team on building software projects, assisting technical leads and fellows with architecture discussions and investigating design tradeoffs.",
+        "link": "",
+        "techTags": [
+          "Node.js",
+          "Software Development",
+          "Architecture"
+        ]
+        
+      },
+      {
+        "time": "Jun 2023 - Nov 2023",
+        "name": "Engineer",
+        "role": "Forge Innovation And Ventures",
+        "desc": "Architected and developed multiple applications, including a Smart Saline System, Posture Detection System, and MQTT Crawler in a short timeframe, helped me to get expertise in Node.js and improve my overall software development proficiency. Worked closely with software and hardware team on building software projects, assisting technical leads and fellows with architecture discussions and investigating design tradeoffs.",
+        "link": "",
+        "techTags": [
+          "Node.js",
+          "Software Development",
+          "Architecture"
+        ]
+        
+      },
+      {
+        "time": "FEB 2022 - SEP 2022",
+        "name": "Backend Developer Intern",
+        "role": "Kalpas Innovation",
+        "desc": "Engineered the comprehensive backend infrastructure to support an online course platform tailored for graphic designers. Successfully integrated email, notification, and payment gateway functionalities into the system. Designed and implemented a robust database schema capable of accommodating a high daily user volume, serving both students and mentors. Implemented automated Cron Jobs to streamline and schedule document updates within the database.",
+        "link": "",
+        "techTags": [
+          "Backend Development",
+          "Database Design",
+          "Cron Jobs"
+        ]
+        
+      },
+      {
+        "time": "SEP 2021 - FEB 2022",
+        "name": "Web Developer",
+        "role": "Adios Innovation",
+        "desc": "Designed and deployed a website enabling users to efficiently locate and connect with qualified therapists. Established distinct user and therapist portals within the website architecture. Implemented PHP as the backend technology, seamlessly integrated with a frontend user interface powered by vanilla JavaScript.",
+        "link": "",
+        "techTags": [
+          "PHP",
+          "JavaScript",
+          "Web Development"
+        ]
+        
+      }
+    ]
+}

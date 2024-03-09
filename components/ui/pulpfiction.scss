@@ -1,0 +1,1629 @@
+
+// Modify the pixel size
+$width : 0.5em;
+
+// Colors Vincent
+$black: #231f20;
+$grey: #3a3a3a;
+$grey-d: #383838;
+$grey-l: #494949;
+$skin-shadow: #af8d76;
+$skin: #c0997d;
+$skin-dark: #927a6a;
+$grey-vl: #dcdcdc;
+$white: #f5f6f7;
+$gun-lg: #c6c6c6;
+$gun-d: #b7b7b7;
+$shadow: #515252;
+
+// Colors Jules
+$brown-vl: #3f281c;
+$brown: #2a1810;
+$brown-d: #160e0d;
+$skin-j-shadow: #573e2b;
+$skin-j: #694c34;
+$skin-j-dark: #4c3628;
+$grey-j-l: #b3b3b3;
+
+
+@mixin jules-1 {
+  box-shadow:
+    ($width * 5) ($width * 0) 0 $brown-vl,
+
+    ($width * 4) ($width * 1) 0 $brown,
+    ($width * 5) ($width * 1) 0 $brown-vl,
+    ($width * 6) ($width * 1) 0 $brown-vl,
+    ($width * 7) ($width * 1) 0 $brown-vl,
+
+    ($width * 3) ($width * 2) 0 $brown-d,
+    ($width * 4) ($width * 2) 0 $brown,
+    ($width * 5) ($width * 2) 0 $brown,
+    ($width * 6) ($width * 2) 0 $brown,
+    ($width * 7) ($width * 2) 0 $brown-vl,
+    ($width * 8) ($width * 2) 0 $brown-vl,
+
+    ($width * 2) ($width * 3) 0 $brown-d,
+    ($width * 3) ($width * 3) 0 $brown-d,
+    ($width * 4) ($width * 3) 0 $brown,
+    ($width * 5) ($width * 3) 0 $brown-d,
+    ($width * 6) ($width * 3) 0 $brown,
+    ($width * 7) ($width * 3) 0 $brown,
+    ($width * 8) ($width * 3) 0 $brown-vl,
+    ($width * 9) ($width * 3) 0 $brown-vl,
+
+    ($width * 1) ($width * 4) 0 $brown-d,
+    ($width * 2) ($width * 4) 0 $brown-d,
+    ($width * 3) ($width * 4) 0 $brown-d,
+    ($width * 4) ($width * 4) 0 $brown-d,
+    ($width * 5) ($width * 4) 0 $brown-d,
+    ($width * 6) ($width * 4) 0 $brown,
+    ($width * 7) ($width * 4) 0 $brown-d,
+    ($width * 8) ($width * 4) 0 $brown,
+    ($width * 9) ($width * 4) 0 $brown-vl,
+    ($width * 10) ($width * 4) 0 $brown-vl,
+
+    ($width * 2) ($width * 5) 0 $brown-d,
+    ($width * 3) ($width * 5) 0 $skin-j-shadow,
+    ($width * 4) ($width * 5) 0 $skin-j,
+    ($width * 5) ($width * 5) 0 $skin-j,
+    ($width * 6) ($width * 5) 0 $brown-d,
+    ($width * 7) ($width * 5) 0 $brown,
+    ($width * 8) ($width * 5) 0 $brown,
+    ($width * 9) ($width * 5) 0 $brown-vl,
+
+    ($width * 3) ($width * 6) 0 $black,
+    ($width * 4) ($width * 6) 0 $black,
+    ($width * 5) ($width * 6) 0 $black,
+    ($width * 6) ($width * 6) 0 $skin-j,
+    ($width * 7) ($width * 6) 0 $brown,
+    ($width * 8) ($width * 6) 0 $brown,
+
+    ($width * 3) ($width * 7) 0 $brown-d,
+    ($width * 4) ($width * 7) 0 $brown,
+    ($width * 5) ($width * 7) 0 $brown,
+    ($width * 6) ($width * 7) 0 $skin-j,
+    ($width * 7) ($width * 7) 0 $brown,
+    ($width * 8) ($width * 7) 0 $skin-j,
+
+    ($width * 3) ($width * 8) 0 $brown-d,
+    ($width * 4) ($width * 8) 0 $skin-j,
+    ($width * 5) ($width * 8) 0 $brown,
+    ($width * 6) ($width * 8) 0 $skin-j,
+    ($width * 7) ($width * 8) 0 $skin-j,
+
+    ($width * 5) ($width * 9) 0 $skin-j-dark,
+    ($width * 6) ($width * 9) 0 $skin-j-dark,
+
+    ($width * 5) ($width * 10) 0 $skin-j-dark,
+    ($width * 6) ($width * 10) 0 $white,
+
+    ($width * 4) ($width * 11) 0 $grey-vl,
+    ($width * 5) ($width * 11) 0 $skin-j-dark,
+    ($width * 6) ($width * 11) 0 $white,
+    ($width * 7) ($width * 11) 0 $black,
+
+    ($width * 3) ($width * 12) 0 $black,
+    ($width * 4) ($width * 12) 0 $grey-vl,
+    ($width * 5) ($width * 12) 0 $black,
+    ($width * 6) ($width * 12) 0 $white,
+    ($width * 7) ($width * 12) 0 $black,
+
+    ($width * 3) ($width * 13) 0 $black,
+    ($width * 4) ($width * 13) 0 $white,
+    ($width * 5) ($width * 13) 0 $black,
+    ($width * 6) ($width * 13) 0 $white,
+    ($width * 7) ($width * 13) 0 $black,
+
+    ($width * 3) ($width * 14) 0 $black,
+    ($width * 4) ($width * 14) 0 $white,
+    ($width * 5) ($width * 14) 0 $black,
+    ($width * 6) ($width * 14) 0 $white,
+    ($width * 7) ($width * 14) 0 $black,
+    ($width * 8) ($width * 14) 0 $black,
+
+    ($width * 3) ($width * 15) 0 $black,
+    ($width * 4) ($width * 15) 0 $white,
+    ($width * 5) ($width * 15) 0 $black,
+    ($width * 6) ($width * 15) 0 $white,
+    ($width * 7) ($width * 15) 0 $black,
+    ($width * 8) ($width * 15) 0 $black,
+
+    ($width * 2) ($width * 16) 0 $black,
+    ($width * 3) ($width * 16) 0 $black,
+    ($width * 4) ($width * 16) 0 $white,
+    ($width * 5) ($width * 16) 0 $black,
+    ($width * 6) ($width * 16) 0 $white,
+    ($width * 7) ($width * 16) 0 $black,
+    ($width * 8) ($width * 16) 0 $black,
+
+    ($width * 2) ($width * 17) 0 $black,
+    ($width * 3) ($width * 17) 0 $black,
+    ($width * 4) ($width * 17) 0 $grey-vl,
+    ($width * 5) ($width * 17) 0 $black,
+    ($width * 6) ($width * 17) 0 $white,
+    ($width * 7) ($width * 17) 0 $black,
+    ($width * 8) ($width * 17) 0 $black,
+
+    ($width * 2) ($width * 18) 0 $black,
+    ($width * 3) ($width * 18) 0 $black,
+    ($width * 4) ($width * 18) 0 $white,
+    ($width * 5) ($width * 18) 0 $black,
+    ($width * 6) ($width * 18) 0 $white,
+    ($width * 7) ($width * 18) 0 $black,
+    ($width * 8) ($width * 18) 0 $black,
+
+    ($width * 2) ($width * 19) 0 $black,
+    ($width * 3) ($width * 19) 0 $black,
+    ($width * 4) ($width * 19) 0 $grey-vl,
+    ($width * 5) ($width * 19) 0 $black,
+    ($width * 6) ($width * 19) 0 $white,
+    ($width * 7) ($width * 19) 0 $black,
+    ($width * 8) ($width * 19) 0 $black,
+    ($width * 9) ($width * 19) 0 $black,
+
+    ($width * 2) ($width * 20) 0 $black,
+    ($width * 3) ($width * 20) 0 $black,
+    ($width * 4) ($width * 20) 0 $grey-vl,
+    ($width * 5) ($width * 20) 0 $grey-vl,
+    ($width * 6) ($width * 20) 0 $white,
+    ($width * 7) ($width * 20) 0 $black,
+    ($width * 8) ($width * 20) 0 $black,
+    ($width * 9) ($width * 20) 0 $black,
+
+    ($width * 2) ($width * 21) 0 $black,
+    ($width * 3) ($width * 21) 0 $black,
+    ($width * 4) ($width * 21) 0 $black,
+    ($width * 5) ($width * 21) 0 $grey-j-l,
+    ($width * 6) ($width * 21) 0 $black,
+    ($width * 7) ($width * 21) 0 $black,
+    ($width * 8) ($width * 21) 0 $black,
+    ($width * 9) ($width * 21) 0 $black,
+
+    ($width * 2) ($width * 22) 0 $black,
+    ($width * 3) ($width * 22) 0 $black,
+    ($width * 4) ($width * 22) 0 $black,
+    ($width * 5) ($width * 22) 0 $black,
+    ($width * 6) ($width * 22) 0 $black,
+    ($width * 7) ($width * 22) 0 $black,
+    ($width * 8) ($width * 22) 0 $black,
+    ($width * 9) ($width * 22) 0 $black,
+
+    ($width * 2) ($width * 23) 0 $black,
+    ($width * 3) ($width * 23) 0 $black,
+    ($width * 4) ($width * 23) 0 $black,
+    ($width * 5) ($width * 23) 0 $black,
+    ($width * 6) ($width * 23) 0 $black,
+    ($width * 7) ($width * 23) 0 $black,
+    ($width * 8) ($width * 23) 0 $black,
+    ($width * 9) ($width * 23) 0 $black,
+
+    ($width * 2) ($width * 24) 0 $black,
+    ($width * 3) ($width * 24) 0 $black,
+    ($width * 4) ($width * 24) 0 $black,
+    ($width * 7) ($width * 24) 0 $black,
+    ($width * 8) ($width * 24) 0 $black,
+    ($width * 9) ($width * 24) 0 $black,
+
+    ($width * 2) ($width * 25) 0 $black,
+    ($width * 3) ($width * 25) 0 $black,
+    ($width * 4) ($width * 25) 0 $black,
+    ($width * 7) ($width * 25) 0 $black,
+    ($width * 8) ($width * 25) 0 $black,
+    ($width * 9) ($width * 25) 0 $black,
+
+    ($width * 2) ($width * 26) 0 $black,
+    ($width * 3) ($width * 26) 0 $black,
+    ($width * 4) ($width * 26) 0 $black,
+    ($width * 7) ($width * 26) 0 $black,
+    ($width * 8) ($width * 26) 0 $black,
+    ($width * 9) ($width * 26) 0 $black,
+
+    ($width * 2) ($width * 27) 0 $skin-j-dark,
+    ($width * 3) ($width * 27) 0 $black,
+    ($width * 4) ($width * 27) 0 $black,
+    ($width * 7) ($width * 27) 0 $black,
+    ($width * 8) ($width * 27) 0 $black,
+    ($width * 9) ($width * 27) 0 $skin-j-dark,
+
+    ($width * 1) ($width * 28) 0 $gun-lg,
+    ($width * 2) ($width * 28) 0 $skin-j-dark,
+    ($width * 3) ($width * 28) 0 $black,
+    ($width * 4) ($width * 28) 0 $black,
+    ($width * 7) ($width * 28) 0 $black,
+    ($width * 8) ($width * 28) 0 $black,
+    ($width * 9) ($width * 28) 0 $skin-j-dark,
+
+    ($width * 1) ($width * 29) 0 $gun-d,
+    ($width * 2) ($width * 29) 0 $gun-lg,
+    ($width * 3) ($width * 29) 0 $black,
+    ($width * 4) ($width * 29) 0 $black,
+    ($width * 7) ($width * 29) 0 $black,
+    ($width * 8) ($width * 29) 0 $black,
+
+    ($width * 1) ($width * 30) 0 $gun-lg,
+    ($width * 3) ($width * 30) 0 $black,
+    ($width * 4) ($width * 30) 0 $black,
+    ($width * 7) ($width * 30) 0 $black,
+    ($width * 8) ($width * 30) 0 $black,
+
+    ($width * 1) ($width * 31) 0 $white,
+    ($width * 4) ($width * 31) 0 $black,
+    ($width * 7) ($width * 31) 0 $black,
+    ($width * 8) ($width * 31) 0 $black,
+
+    ($width * 1) ($width * 32) 0 $white,
+    ($width * 4) ($width * 32) 0 $black,
+    ($width * 7) ($width * 32) 0 $black,
+
+    ($width * 4) ($width * 33) 0 $black,
+    ($width * 7) ($width * 33) 0 $black,
+
+    ($width * 4) ($width * 34) 0 $black,
+    ($width * 7) ($width * 34) 0 $black,
+
+    ($width * 4) ($width * 35) 0 $black,
+    ($width * 7) ($width * 35) 0 $black,
+
+    ($width * 4) ($width * 36) 0 $black,
+    ($width * 7) ($width * 36) 0 $black,
+
+    ($width * 4) ($width * 37) 0 $black,
+    ($width * 7) ($width * 37) 0 $black,
+
+    ($width * 4) ($width * 38) 0 $black,
+    ($width * 7) ($width * 38) 0 $black,
+
+    ($width * 4) ($width * 39) 0 $black,
+    ($width * 7) ($width * 39) 0 $black,
+
+    ($width * 1) ($width * 40) 0 $shadow,
+    ($width * 2) ($width * 40) 0 $shadow,
+    ($width * 3) ($width * 40) 0 $shadow,
+    ($width * 4) ($width * 40) 0 $black,
+    ($width * 5) ($width * 40) 0 $shadow,
+    ($width * 6) ($width * 40) 0 $shadow,
+    ($width * 7) ($width * 40) 0 $black,
+    ($width * 8) ($width * 40) 0 $shadow
+}
+
+@mixin jules-gun {
+  box-shadow:
+    ($width * 5) ($width * 0) 0 $brown-vl,
+
+    ($width * 4) ($width * 1) 0 $brown,
+    ($width * 5) ($width * 1) 0 $brown-vl,
+    ($width * 6) ($width * 1) 0 $brown-vl,
+    ($width * 7) ($width * 1) 0 $brown-vl,
+
+    ($width * 3) ($width * 2) 0 $brown-d,
+    ($width * 4) ($width * 2) 0 $brown,
+    ($width * 5) ($width * 2) 0 $brown,
+    ($width * 6) ($width * 2) 0 $brown,
+    ($width * 7) ($width * 2) 0 $brown-vl,
+    ($width * 8) ($width * 2) 0 $brown-vl,
+
+    ($width * 2) ($width * 3) 0 $brown-d,
+    ($width * 3) ($width * 3) 0 $brown-d,
+    ($width * 4) ($width * 3) 0 $brown,
+    ($width * 5) ($width * 3) 0 $brown-d,
+    ($width * 6) ($width * 3) 0 $brown,
+    ($width * 7) ($width * 3) 0 $brown,
+    ($width * 8) ($width * 3) 0 $brown-vl,
+    ($width * 9) ($width * 3) 0 $brown-vl,
+
+    ($width * 1) ($width * 4) 0 $brown-d,
+    ($width * 2) ($width * 4) 0 $brown-d,
+    ($width * 3) ($width * 4) 0 $brown-d,
+    ($width * 4) ($width * 4) 0 $brown-d,
+    ($width * 5) ($width * 4) 0 $brown-d,
+    ($width * 6) ($width * 4) 0 $brown,
+    ($width * 7) ($width * 4) 0 $brown-d,
+    ($width * 8) ($width * 4) 0 $brown,
+    ($width * 9) ($width * 4) 0 $brown-vl,
+    ($width * 10) ($width * 4) 0 $brown-vl,
+
+    ($width * 2) ($width * 5) 0 $brown-d,
+    ($width * 3) ($width * 5) 0 $skin-j-shadow,
+    ($width * 4) ($width * 5) 0 $skin-j,
+    ($width * 5) ($width * 5) 0 $skin-j,
+    ($width * 6) ($width * 5) 0 $brown-d,
+    ($width * 7) ($width * 5) 0 $brown,
+    ($width * 8) ($width * 5) 0 $brown,
+    ($width * 9) ($width * 5) 0 $brown-vl,
+
+    ($width * 3) ($width * 6) 0 $black,
+    ($width * 4) ($width * 6) 0 $black,
+    ($width * 5) ($width * 6) 0 $black,
+    ($width * 6) ($width * 6) 0 $skin-j,
+    ($width * 7) ($width * 6) 0 $brown,
+    ($width * 8) ($width * 6) 0 $brown,
+
+    ($width * 3) ($width * 7) 0 $brown-d,
+    ($width * 4) ($width * 7) 0 $brown,
+    ($width * 5) ($width * 7) 0 $brown,
+    ($width * 6) ($width * 7) 0 $skin-j,
+    ($width * 7) ($width * 7) 0 $brown,
+    ($width * 8) ($width * 7) 0 $skin-j,
+
+    ($width * 3) ($width * 8) 0 $brown-d,
+    ($width * 4) ($width * 8) 0 $skin-j,
+    ($width * 5) ($width * 8) 0 $brown,
+    ($width * 6) ($width * 8) 0 $skin-j,
+    ($width * 7) ($width * 8) 0 $skin-j,
+
+    ($width * 5) ($width * 9) 0 $skin-j-dark,
+    ($width * 6) ($width * 9) 0 $skin-j-dark,
+
+    ($width * 5) ($width * 10) 0 $skin-j-dark,
+    ($width * 6) ($width * 10) 0 $white,
+
+    ($width * 4) ($width * 11) 0 $grey-vl,
+    ($width * 5) ($width * 11) 0 $skin-j-dark,
+    ($width * 6) ($width * 11) 0 $white,
+    ($width * 7) ($width * 11) 0 $black,
+
+    ($width * -14) ($width * 12) 0 $grey-vl,
+    ($width * -13) ($width * 12) 0 $grey-vl,
+    ($width * -12) ($width * 12) 0 $grey-vl,
+    ($width * -11) ($width * 12) 0 $grey-j-l,
+    ($width * -10) ($width * 12) 0 $grey-vl,
+    ($width * 4) ($width * 12) 0 $grey-vl,
+    ($width * 5) ($width * 12) 0 $black,
+    ($width * 6) ($width * 12) 0 $white,
+    ($width * 7) ($width * 12) 0 $black,
+
+    ($width * -11) ($width * 13) 0 $grey-vl,
+    ($width * -10) ($width * 13) 0 $skin-j,
+    ($width * -9) ($width * 13) 0 $skin-j,
+    ($width * -8) ($width * 13) 0 $black,
+    ($width * -7) ($width * 13) 0 $black,
+    ($width * -6) ($width * 13) 0 $black,
+    ($width * -5) ($width * 13) 0 $black,
+    ($width * -4) ($width * 13) 0 $black,
+    ($width * -3) ($width * 13) 0 $black,
+    ($width * -2) ($width * 13) 0 $black,
+    ($width * -1) ($width * 13) 0 $black,
+    ($width * 0) ($width * 13) 0 $black,
+    ($width * 1) ($width * 13) 0 $black,
+    ($width * 2) ($width * 13) 0 $black,
+    ($width * 3) ($width * 13) 0 $black,
+    ($width * 4) ($width * 13) 0 $white,
+    ($width * 5) ($width * 13) 0 $black,
+    ($width * 6) ($width * 13) 0 $white,
+    ($width * 7) ($width * 13) 0 $black,
+
+    ($width * -10) ($width * 14) 0 $black,
+    ($width * 1) ($width * 14) 0 $black,
+    ($width * 2) ($width * 14) 0 $black,
+    ($width * 3) ($width * 14) 0 $black,
+    ($width * 4) ($width * 14) 0 $white,
+    ($width * 5) ($width * 14) 0 $black,
+    ($width * 6) ($width * 14) 0 $white,
+    ($width * 7) ($width * 14) 0 $black,
+    ($width * 8) ($width * 14) 0 $black,
+
+    ($width * 1) ($width * 15) 0 $black,
+    ($width * 2) ($width * 15) 0 $black,
+    ($width * 3) ($width * 15) 0 $black,
+    ($width * 4) ($width * 15) 0 $white,
+    ($width * 5) ($width * 15) 0 $black,
+    ($width * 6) ($width * 15) 0 $white,
+    ($width * 7) ($width * 15) 0 $black,
+    ($width * 8) ($width * 15) 0 $black,
+
+    ($width * 2) ($width * 16) 0 $black,
+    ($width * 3) ($width * 16) 0 $black,
+    ($width * 4) ($width * 16) 0 $white,
+    ($width * 5) ($width * 16) 0 $black,
+    ($width * 6) ($width * 16) 0 $white,
+    ($width * 7) ($width * 16) 0 $black,
+    ($width * 8) ($width * 16) 0 $black,
+
+    ($width * 2) ($width * 17) 0 $black,
+    ($width * 3) ($width * 17) 0 $black,
+    ($width * 4) ($width * 17) 0 $grey-vl,
+    ($width * 5) ($width * 17) 0 $black,
+    ($width * 6) ($width * 17) 0 $white,
+    ($width * 7) ($width * 17) 0 $black,
+    ($width * 8) ($width * 17) 0 $black,
+
+    ($width * 2) ($width * 18) 0 $black,
+    ($width * 3) ($width * 18) 0 $black,
+    ($width * 4) ($width * 18) 0 $white,
+    ($width * 5) ($width * 18) 0 $black,
+    ($width * 6) ($width * 18) 0 $white,
+    ($width * 7) ($width * 18) 0 $black,
+    ($width * 8) ($width * 18) 0 $black,
+
+    ($width * 2) ($width * 19) 0 $black,
+    ($width * 3) ($width * 19) 0 $black,
+    ($width * 4) ($width * 19) 0 $grey-vl,
+    ($width * 5) ($width * 19) 0 $black,
+    ($width * 6) ($width * 19) 0 $white,
+    ($width * 7) ($width * 19) 0 $black,
+    ($width * 8) ($width * 19) 0 $black,
+    ($width * 9) ($width * 19) 0 $black,
+
+    ($width * 2) ($width * 20) 0 $black,
+    ($width * 3) ($width * 20) 0 $black,
+    ($width * 4) ($width * 20) 0 $grey-vl,
+    ($width * 5) ($width * 20) 0 $grey-vl,
+    ($width * 6) ($width * 20) 0 $white,
+    ($width * 7) ($width * 20) 0 $black,
+    ($width * 8) ($width * 20) 0 $black,
+    ($width * 9) ($width * 20) 0 $black,
+
+    ($width * 2) ($width * 21) 0 $black,
+    ($width * 3) ($width * 21) 0 $black,
+    ($width * 4) ($width * 21) 0 $black,
+    ($width * 5) ($width * 21) 0 $grey-j-l,
+    ($width * 6) ($width * 21) 0 $black,
+    ($width * 7) ($width * 21) 0 $black,
+    ($width * 8) ($width * 21) 0 $black,
+    ($width * 9) ($width * 21) 0 $black,
+
+    ($width * 2) ($width * 22) 0 $black,
+    ($width * 3) ($width * 22) 0 $black,
+    ($width * 4) ($width * 22) 0 $black,
+    ($width * 5) ($width * 22) 0 $black,
+    ($width * 6) ($width * 22) 0 $black,
+    ($width * 7) ($width * 22) 0 $black,
+    ($width * 8) ($width * 22) 0 $black,
+    ($width * 9) ($width * 22) 0 $black,
+
+
+    ($width * 3) ($width * 23) 0 $black,
+    ($width * 4) ($width * 23) 0 $black,
+    ($width * 5) ($width * 23) 0 $black,
+    ($width * 6) ($width * 23) 0 $black,
+    ($width * 7) ($width * 23) 0 $black,
+    ($width * 8) ($width * 23) 0 $black,
+    ($width * 9) ($width * 23) 0 $black,
+
+
+    ($width * 3) ($width * 24) 0 $black,
+    ($width * 4) ($width * 24) 0 $black,
+    ($width * 7) ($width * 24) 0 $black,
+    ($width * 8) ($width * 24) 0 $black,
+    ($width * 9) ($width * 24) 0 $black,
+
+    ($width * 3) ($width * 25) 0 $black,
+    ($width * 4) ($width * 25) 0 $black,
+    ($width * 7) ($width * 25) 0 $black,
+    ($width * 8) ($width * 25) 0 $black,
+    ($width * 9) ($width * 25) 0 $black,
+
+    ($width * 3) ($width * 26) 0 $black,
+    ($width * 4) ($width * 26) 0 $black,
+    ($width * 7) ($width * 26) 0 $black,
+    ($width * 8) ($width * 26) 0 $black,
+    ($width * 9) ($width * 26) 0 $black,
+
+    ($width * 3) ($width * 27) 0 $black,
+    ($width * 4) ($width * 27) 0 $black,
+    ($width * 7) ($width * 27) 0 $black,
+    ($width * 8) ($width * 27) 0 $black,
+    ($width * 9) ($width * 27) 0 $skin-j-dark,
+
+    ($width * 3) ($width * 28) 0 $black,
+    ($width * 4) ($width * 28) 0 $black,
+    ($width * 7) ($width * 28) 0 $black,
+    ($width * 8) ($width * 28) 0 $black,
+    ($width * 9) ($width * 28) 0 $skin-j-dark,
+
+    ($width * 3) ($width * 29) 0 $black,
+    ($width * 4) ($width * 29) 0 $black,
+    ($width * 7) ($width * 29) 0 $black,
+    ($width * 8) ($width * 29) 0 $black,
+
+    ($width * 3) ($width * 30) 0 $black,
+    ($width * 4) ($width * 30) 0 $black,
+    ($width * 7) ($width * 30) 0 $black,
+    ($width * 8) ($width * 30) 0 $black,
+
+    ($width * 4) ($width * 31) 0 $black,
+    ($width * 7) ($width * 31) 0 $black,
+    ($width * 8) ($width * 31) 0 $black,
+
+    ($width * 4) ($width * 32) 0 $black,
+    ($width * 7) ($width * 32) 0 $black,
+
+    ($width * 4) ($width * 33) 0 $black,
+    ($width * 7) ($width * 33) 0 $black,
+
+    ($width * 4) ($width * 34) 0 $black,
+    ($width * 7) ($width * 34) 0 $black,
+
+    ($width * 4) ($width * 35) 0 $black,
+    ($width * 7) ($width * 35) 0 $black,
+
+    ($width * 4) ($width * 36) 0 $black,
+    ($width * 7) ($width * 36) 0 $black,
+
+    ($width * 4) ($width * 37) 0 $black,
+    ($width * 7) ($width * 37) 0 $black,
+
+    ($width * 4) ($width * 38) 0 $black,
+    ($width * 7) ($width * 38) 0 $black,
+
+    ($width * 4) ($width * 39) 0 $black,
+    ($width * 7) ($width * 39) 0 $black,
+
+    ($width * 1) ($width * 40) 0 $shadow,
+    ($width * 2) ($width * 40) 0 $shadow,
+    ($width * 3) ($width * 40) 0 $shadow,
+    ($width * 4) ($width * 40) 0 $black,
+    ($width * 5) ($width * 40) 0 $shadow,
+    ($width * 6) ($width * 40) 0 $shadow,
+    ($width * 7) ($width * 40) 0 $black,
+    ($width * 8) ($width * 40) 0 $shadow
+}
+
+@mixin jules-fire {
+  box-shadow:
+    ($width * 5) ($width * 0) 0 $brown-vl,
+
+    ($width * 4) ($width * 1) 0 $brown,
+    ($width * 5) ($width * 1) 0 $brown-vl,
+    ($width * 6) ($width * 1) 0 $brown-vl,
+    ($width * 7) ($width * 1) 0 $brown-vl,
+
+    ($width * 3) ($width * 2) 0 $brown-d,
+    ($width * 4) ($width * 2) 0 $brown,
+    ($width * 5) ($width * 2) 0 $brown,
+    ($width * 6) ($width * 2) 0 $brown,
+    ($width * 7) ($width * 2) 0 $brown-vl,
+    ($width * 8) ($width * 2) 0 $brown-vl,
+
+    ($width * 2) ($width * 3) 0 $brown-d,
+    ($width * 3) ($width * 3) 0 $brown-d,
+    ($width * 4) ($width * 3) 0 $brown,
+    ($width * 5) ($width * 3) 0 $brown-d,
+    ($width * 6) ($width * 3) 0 $brown,
+    ($width * 7) ($width * 3) 0 $brown,
+    ($width * 8) ($width * 3) 0 $brown-vl,
+    ($width * 9) ($width * 3) 0 $brown-vl,
+
+    ($width * 1) ($width * 4) 0 $brown-d,
+    ($width * 2) ($width * 4) 0 $brown-d,
+    ($width * 3) ($width * 4) 0 $brown-d,
+    ($width * 4) ($width * 4) 0 $brown-d,
+    ($width * 5) ($width * 4) 0 $brown-d,
+    ($width * 6) ($width * 4) 0 $brown,
+    ($width * 7) ($width * 4) 0 $brown-d,
+    ($width * 8) ($width * 4) 0 $brown,
+    ($width * 9) ($width * 4) 0 $brown-vl,
+    ($width * 10) ($width * 4) 0 $brown-vl,
+
+    ($width * 2) ($width * 5) 0 $brown-d,
+    ($width * 3) ($width * 5) 0 $skin-j-shadow,
+    ($width * 4) ($width * 5) 0 $skin-j,
+    ($width * 5) ($width * 5) 0 $skin-j,
+    ($width * 6) ($width * 5) 0 $brown-d,
+    ($width * 7) ($width * 5) 0 $brown,
+    ($width * 8) ($width * 5) 0 $brown,
+    ($width * 9) ($width * 5) 0 $brown-vl,
+
+    ($width * 3) ($width * 6) 0 $black,
+    ($width * 4) ($width * 6) 0 $black,
+    ($width * 5) ($width * 6) 0 $black,
+    ($width * 6) ($width * 6) 0 $skin-j,
+    ($width * 7) ($width * 6) 0 $brown,
+    ($width * 8) ($width * 6) 0 $brown,
+
+    ($width * 3) ($width * 7) 0 $brown-d,
+    ($width * 4) ($width * 7) 0 $brown,
+    ($width * 5) ($width * 7) 0 $brown,
+    ($width * 6) ($width * 7) 0 $skin-j,
+    ($width * 7) ($width * 7) 0 $brown,
+    ($width * 8) ($width * 7) 0 $skin-j,
+
+    ($width * 3) ($width * 8) 0 $brown-d,
+    ($width * 4) ($width * 8) 0 $skin-j,
+    ($width * 5) ($width * 8) 0 $brown,
+    ($width * 6) ($width * 8) 0 $skin-j,
+    ($width * 7) ($width * 8) 0 $skin-j,
+
+    ($width * 5) ($width * 9) 0 $skin-j-dark,
+    ($width * 6) ($width * 9) 0 $skin-j-dark,
+
+    ($width * 5) ($width * 10) 0 $skin-j-dark,
+    ($width * 6) ($width * 10) 0 $white,
+
+    ($width * -17) ($width * 11) 0 $white,
+    ($width * 4) ($width * 11) 0 $grey-vl,
+    ($width * 5) ($width * 11) 0 $skin-j-dark,
+    ($width * 6) ($width * 11) 0 $white,
+    ($width * 7) ($width * 11) 0 $black,
+
+
+    ($width * -16) ($width * 12) 0 $white,
+    ($width * -14) ($width * 12) 0 $grey-vl,
+    ($width * -13) ($width * 12) 0 $grey-vl,
+    ($width * -12) ($width * 12) 0 $grey-vl,
+    ($width * -11) ($width * 12) 0 $grey-j-l,
+    ($width * -10) ($width * 12) 0 $grey-vl,
+    ($width * 4) ($width * 12) 0 $grey-vl,
+    ($width * 5) ($width * 12) 0 $black,
+    ($width * 6) ($width * 12) 0 $white,
+    ($width * 7) ($width * 12) 0 $black,
+
+    ($width * -17) ($width * 13) 0 $white,
+    ($width * -11) ($width * 13) 0 $grey-vl,
+    ($width * -10) ($width * 13) 0 $skin-j,
+    ($width * -9) ($width * 13) 0 $skin-j,
+    ($width * -8) ($width * 13) 0 $black,
+    ($width * -7) ($width * 13) 0 $black,
+    ($width * -6) ($width * 13) 0 $black,
+    ($width * -5) ($width * 13) 0 $black,
+    ($width * -4) ($width * 13) 0 $black,
+    ($width * -3) ($width * 13) 0 $black,
+    ($width * -2) ($width * 13) 0 $black,
+    ($width * -1) ($width * 13) 0 $black,
+    ($width * 0) ($width * 13) 0 $black,
+    ($width * 1) ($width * 13) 0 $black,
+    ($width * 2) ($width * 13) 0 $black,
+    ($width * 3) ($width * 13) 0 $black,
+    ($width * 4) ($width * 13) 0 $white,
+    ($width * 5) ($width * 13) 0 $black,
+    ($width * 6) ($width * 13) 0 $white,
+    ($width * 7) ($width * 13) 0 $black,
+
+    ($width * -10) ($width * 14) 0 $black,
+    ($width * 1) ($width * 14) 0 $black,
+    ($width * 2) ($width * 14) 0 $black,
+    ($width * 3) ($width * 14) 0 $black,
+    ($width * 4) ($width * 14) 0 $white,
+    ($width * 5) ($width * 14) 0 $black,
+    ($width * 6) ($width * 14) 0 $white,
+    ($width * 7) ($width * 14) 0 $black,
+    ($width * 8) ($width * 14) 0 $black,
+
+    ($width * 1) ($width * 15) 0 $black,
+    ($width * 2) ($width * 15) 0 $black,
+    ($width * 3) ($width * 15) 0 $black,
+    ($width * 4) ($width * 15) 0 $white,
+    ($width * 5) ($width * 15) 0 $black,
+    ($width * 6) ($width * 15) 0 $white,
+    ($width * 7) ($width * 15) 0 $black,
+    ($width * 8) ($width * 15) 0 $black,
+
+    ($width * 2) ($width * 16) 0 $black,
+    ($width * 3) ($width * 16) 0 $black,
+    ($width * 4) ($width * 16) 0 $white,
+    ($width * 5) ($width * 16) 0 $black,
+    ($width * 6) ($width * 16) 0 $white,
+    ($width * 7) ($width * 16) 0 $black,
+    ($width * 8) ($width * 16) 0 $black,
+
+    ($width * 2) ($width * 17) 0 $black,
+    ($width * 3) ($width * 17) 0 $black,
+    ($width * 4) ($width * 17) 0 $grey-vl,
+    ($width * 5) ($width * 17) 0 $black,
+    ($width * 6) ($width * 17) 0 $white,
+    ($width * 7) ($width * 17) 0 $black,
+    ($width * 8) ($width * 17) 0 $black,
+
+    ($width * 2) ($width * 18) 0 $black,
+    ($width * 3) ($width * 18) 0 $black,
+    ($width * 4) ($width * 18) 0 $white,
+    ($width * 5) ($width * 18) 0 $black,
+    ($width * 6) ($width * 18) 0 $white,
+    ($width * 7) ($width * 18) 0 $black,
+    ($width * 8) ($width * 18) 0 $black,
+
+    ($width * 2) ($width * 19) 0 $black,
+    ($width * 3) ($width * 19) 0 $black,
+    ($width * 4) ($width * 19) 0 $grey-vl,
+    ($width * 5) ($width * 19) 0 $black,
+    ($width * 6) ($width * 19) 0 $white,
+    ($width * 7) ($width * 19) 0 $black,
+    ($width * 8) ($width * 19) 0 $black,
+    ($width * 9) ($width * 19) 0 $black,
+
+    ($width * 2) ($width * 20) 0 $black,
+    ($width * 3) ($width * 20) 0 $black,
+    ($width * 4) ($width * 20) 0 $grey-vl,
+    ($width * 5) ($width * 20) 0 $grey-vl,
+    ($width * 6) ($width * 20) 0 $white,
+    ($width * 7) ($width * 20) 0 $black,
+    ($width * 8) ($width * 20) 0 $black,
+    ($width * 9) ($width * 20) 0 $black,
+
+    ($width * 2) ($width * 21) 0 $black,
+    ($width * 3) ($width * 21) 0 $black,
+    ($width * 4) ($width * 21) 0 $black,
+    ($width * 5) ($width * 21) 0 $grey-j-l,
+    ($width * 6) ($width * 21) 0 $black,
+    ($width * 7) ($width * 21) 0 $black,
+    ($width * 8) ($width * 21) 0 $black,
+    ($width * 9) ($width * 21) 0 $black,
+
+    ($width * 2) ($width * 22) 0 $black,
+    ($width * 3) ($width * 22) 0 $black,
+    ($width * 4) ($width * 22) 0 $black,
+    ($width * 5) ($width * 22) 0 $black,
+    ($width * 6) ($width * 22) 0 $black,
+    ($width * 7) ($width * 22) 0 $black,
+    ($width * 8) ($width * 22) 0 $black,
+    ($width * 9) ($width * 22) 0 $black,
+
+
+    ($width * 3) ($width * 23) 0 $black,
+    ($width * 4) ($width * 23) 0 $black,
+    ($width * 5) ($width * 23) 0 $black,
+    ($width * 6) ($width * 23) 0 $black,
+    ($width * 7) ($width * 23) 0 $black,
+    ($width * 8) ($width * 23) 0 $black,
+    ($width * 9) ($width * 23) 0 $black,
+
+
+    ($width * 3) ($width * 24) 0 $black,
+    ($width * 4) ($width * 24) 0 $black,
+    ($width * 7) ($width * 24) 0 $black,
+    ($width * 8) ($width * 24) 0 $black,
+    ($width * 9) ($width * 24) 0 $black,
+
+    ($width * 3) ($width * 25) 0 $black,
+    ($width * 4) ($width * 25) 0 $black,
+    ($width * 7) ($width * 25) 0 $black,
+    ($width * 8) ($width * 25) 0 $black,
+    ($width * 9) ($width * 25) 0 $black,
+
+    ($width * 3) ($width * 26) 0 $black,
+    ($width * 4) ($width * 26) 0 $black,
+    ($width * 7) ($width * 26) 0 $black,
+    ($width * 8) ($width * 26) 0 $black,
+    ($width * 9) ($width * 26) 0 $black,
+
+    ($width * 3) ($width * 27) 0 $black,
+    ($width * 4) ($width * 27) 0 $black,
+    ($width * 7) ($width * 27) 0 $black,
+    ($width * 8) ($width * 27) 0 $black,
+    ($width * 9) ($width * 27) 0 $skin-j-dark,
+
+    ($width * 3) ($width * 28) 0 $black,
+    ($width * 4) ($width * 28) 0 $black,
+    ($width * 7) ($width * 28) 0 $black,
+    ($width * 8) ($width * 28) 0 $black,
+    ($width * 9) ($width * 28) 0 $skin-j-dark,
+
+    ($width * 3) ($width * 29) 0 $black,
+    ($width * 4) ($width * 29) 0 $black,
+    ($width * 7) ($width * 29) 0 $black,
+    ($width * 8) ($width * 29) 0 $black,
+
+    ($width * 3) ($width * 30) 0 $black,
+    ($width * 4) ($width * 30) 0 $black,
+    ($width * 7) ($width * 30) 0 $black,
+    ($width * 8) ($width * 30) 0 $black,
+
+    ($width * 4) ($width * 31) 0 $black,
+    ($width * 7) ($width * 31) 0 $black,
+    ($width * 8) ($width * 31) 0 $black,
+
+    ($width * 4) ($width * 32) 0 $black,
+    ($width * 7) ($width * 32) 0 $black,
+
+    ($width * 4) ($width * 33) 0 $black,
+    ($width * 7) ($width * 33) 0 $black,
+
+    ($width * 4) ($width * 34) 0 $black,
+    ($width * 7) ($width * 34) 0 $black,
+
+    ($width * 4) ($width * 35) 0 $black,
+    ($width * 7) ($width * 35) 0 $black,
+
+    ($width * 4) ($width * 36) 0 $black,
+    ($width * 7) ($width * 36) 0 $black,
+
+    ($width * 4) ($width * 37) 0 $black,
+    ($width * 7) ($width * 37) 0 $black,
+
+    ($width * 4) ($width * 38) 0 $black,
+    ($width * 7) ($width * 38) 0 $black,
+
+    ($width * 4) ($width * 39) 0 $black,
+    ($width * 7) ($width * 39) 0 $black,
+
+    ($width * 1) ($width * 40) 0 $shadow,
+    ($width * 2) ($width * 40) 0 $shadow,
+    ($width * 3) ($width * 40) 0 $shadow,
+    ($width * 4) ($width * 40) 0 $black,
+    ($width * 5) ($width * 40) 0 $shadow,
+    ($width * 6) ($width * 40) 0 $shadow,
+    ($width * 7) ($width * 40) 0 $black,
+    ($width * 8) ($width * 40) 0 $shadow
+}
+
+@mixin vincent-1 {
+  box-shadow:
+    ($width * 4) ($width * 4) 0 $black,
+    ($width * 5) ($width * 4) 0 $grey,
+    ($width * 6) ($width * 4) 0 $black,
+    ($width * 7) ($width * 4) 0 $grey-d,
+    ($width * 8) ($width * 4) 0 $grey-l,
+
+    ($width * 3) ($width * 5) 0 $black,
+    ($width * 4) ($width * 5) 0 $skin-shadow,
+    ($width * 5) ($width * 5) 0 $skin,
+    ($width * 6) ($width * 5) 0 $skin,
+    ($width * 7) ($width * 5) 0 $black,
+    ($width * 8) ($width * 5) 0 $black,
+
+    ($width * 4) ($width * 6) 0 $skin-shadow,
+    ($width * 5) ($width * 6) 0 $skin,
+    ($width * 6) ($width * 6) 0 $skin,
+    ($width * 7) ($width * 6) 0 $skin,
+    ($width * 8) ($width * 6) 0 $black,
+
+    ($width * 4) ($width * 7) 0 $black,
+    ($width * 5) ($width * 7) 0 $skin,
+    ($width * 6) ($width * 7) 0 $black,
+    ($width * 7) ($width * 7) 0 $skin,
+    ($width * 8) ($width * 7) 0 $black,
+    ($width * 9) ($width * 7) 0 $black,
+
+    ($width * 4) ($width * 8) 0 $skin-shadow,
+    ($width * 5) ($width * 8) 0 $skin,
+    ($width * 6) ($width * 8) 0 $skin,
+    ($width * 7) ($width * 8) 0 $skin,
+    ($width * 8) ($width * 8) 0 $skin,
+
+    ($width * 4) ($width * 9) 0 $skin-shadow,
+    ($width * 5) ($width * 9) 0 $skin-shadow,
+    ($width * 6) ($width * 9) 0 $skin,
+    ($width * 7) ($width * 9) 0 $skin,
+    ($width * 8) ($width * 9) 0 $black,
+
+    ($width * 5) ($width * 10) 0 $black,
+    ($width * 6) ($width * 10) 0 $skin-dark,
+    ($width * 7) ($width * 10) 0 $skin-dark,
+    ($width * 8) ($width * 10) 0 $black,
+    ($width * 9) ($width * 10) 0 $black,
+
+    ($width * 4) ($width * 11) 0 $black,
+    ($width * 5) ($width * 11) 0 $black,
+    ($width * 6) ($width * 11) 0 $skin-shadow,
+    ($width * 7) ($width * 11) 0 $grey-vl,
+    ($width * 8) ($width * 11) 0 $black,
+
+    ($width * 5) ($width * 12) 0 $grey-vl,
+    ($width * 6) ($width * 12) 0 $skin,
+    ($width * 7) ($width * 12) 0 $grey-vl,
+    ($width * 8) ($width * 12) 0 $black,
+
+    ($width * 4) ($width * 13) 0 $black,
+    ($width * 5) ($width * 13) 0 $grey-vl,
+    ($width * 6) ($width * 13) 0 $black,
+    ($width * 7) ($width * 13) 0 $white,
+    ($width * 8) ($width * 13) 0 $black,
+
+    ($width * 4) ($width * 14) 0 $black,
+    ($width * 5) ($width * 14) 0 $grey-vl,
+    ($width * 6) ($width * 14) 0 $black,
+    ($width * 7) ($width * 14) 0 $white,
+    ($width * 8) ($width * 14) 0 $black,
+
+    ($width * 4) ($width * 15) 0 $black,
+    ($width * 5) ($width * 15) 0 $grey-vl,
+    ($width * 6) ($width * 15) 0 $black,
+    ($width * 7) ($width * 15) 0 $white,
+    ($width * 8) ($width * 15) 0 $black,
+    ($width * 9) ($width * 15) 0 $black,
+
+    ($width * 4) ($width * 16) 0 $black,
+    ($width * 5) ($width * 16) 0 $grey-vl,
+    ($width * 6) ($width * 16) 0 $black,
+    ($width * 7) ($width * 16) 0 $white,
+    ($width * 8) ($width * 16) 0 $black,
+    ($width * 9) ($width * 16) 0 $black,
+
+    ($width * 3) ($width * 17) 0 $black,
+    ($width * 4) ($width * 17) 0 $black,
+    ($width * 5) ($width * 17) 0 $white,
+    ($width * 6) ($width * 17) 0 $black,
+    ($width * 7) ($width * 17) 0 $white,
+    ($width * 8) ($width * 17) 0 $black,
+    ($width * 9) ($width * 17) 0 $black,
+
+    ($width * 3) ($width * 18) 0 $black,
+    ($width * 4) ($width * 18) 0 $black,
+    ($width * 5) ($width * 18) 0 $white,
+    ($width * 6) ($width * 18) 0 $black,
+    ($width * 7) ($width * 18) 0 $white,
+    ($width * 8) ($width * 18) 0 $black,
+    ($width * 9) ($width * 18) 0 $black,
+
+    ($width * 3) ($width * 19) 0 $black,
+    ($width * 4) ($width * 19) 0 $black,
+    ($width * 5) ($width * 19) 0 $white,
+    ($width * 6) ($width * 19) 0 $black,
+    ($width * 7) ($width * 19) 0 $white,
+    ($width * 8) ($width * 19) 0 $black,
+    ($width * 9) ($width * 19) 0 $black,
+
+    ($width * 3) ($width * 20) 0 $black,
+    ($width * 4) ($width * 20) 0 $black,
+    ($width * 5) ($width * 20) 0 $grey-vl,
+    ($width * 6) ($width * 20) 0 $black,
+    ($width * 7) ($width * 20) 0 $white,
+    ($width * 8) ($width * 20) 0 $black,
+    ($width * 9) ($width * 20) 0 $black,
+
+    ($width * 3) ($width * 21) 0 $black,
+    ($width * 4) ($width * 21) 0 $black,
+    ($width * 5) ($width * 21) 0 $grey-vl,
+    ($width * 6) ($width * 21) 0 $black,
+    ($width * 7) ($width * 21) 0 $grey-vl,
+    ($width * 8) ($width * 21) 0 $black,
+    ($width * 9) ($width * 21) 0 $black,
+    ($width * 10) ($width * 21) 0 $black,
+
+    ($width * 3) ($width * 22) 0 $black,
+    ($width * 4) ($width * 22) 0 $black,
+    ($width * 5) ($width * 22) 0 $black,
+    ($width * 6) ($width * 22) 0 $black,
+    ($width * 7) ($width * 22) 0 $black,
+    ($width * 8) ($width * 22) 0 $black,
+    ($width * 9) ($width * 22) 0 $black,
+    ($width * 10) ($width * 22) 0 $black,
+
+    ($width * 3) ($width * 23) 0 $black,
+    ($width * 4) ($width * 23) 0 $black,
+    ($width * 5) ($width * 23) 0 $black,
+    ($width * 6) ($width * 23) 0 $black,
+    ($width * 7) ($width * 23) 0 $black,
+    ($width * 8) ($width * 23) 0 $black,
+    ($width * 9) ($width * 23) 0 $black,
+    ($width * 10) ($width * 23) 0 $black,
+
+    ($width * 3) ($width * 24) 0 $black,
+    ($width * 4) ($width * 24) 0 $black,
+    ($width * 5) ($width * 24) 0 $black,
+    ($width * 6) ($width * 24) 0 $black,
+    ($width * 7) ($width * 24) 0 $black,
+    ($width * 8) ($width * 24) 0 $black,
+    ($width * 9) ($width * 24) 0 $black,
+    ($width * 10) ($width * 24) 0 $black,
+
+    ($width * 3) ($width * 25) 0 $black,
+    ($width * 4) ($width * 25) 0 $black,
+    ($width * 5) ($width * 25) 0 $black,
+    ($width * 8) ($width * 25) 0 $black,
+    ($width * 9) ($width * 25) 0 $black,
+    ($width * 10) ($width * 25) 0 $black,
+
+    ($width * 3) ($width * 26) 0 $black,
+    ($width * 4) ($width * 26) 0 $black,
+    ($width * 5) ($width * 26) 0 $black,
+    ($width * 8) ($width * 26) 0 $black,
+    ($width * 9) ($width * 26) 0 $black,
+    ($width * 10) ($width * 26) 0 $black,
+
+    ($width * 3) ($width * 27) 0 $black,
+    ($width * 4) ($width * 27) 0 $black,
+    ($width * 5) ($width * 27) 0 $black,
+    ($width * 8) ($width * 27) 0 $black,
+    ($width * 9) ($width * 27) 0 $black,
+    ($width * 10) ($width * 27) 0 $black,
+
+    ($width * 3) ($width * 28) 0 $skin,
+    ($width * 4) ($width * 28) 0 $black,
+    ($width * 5) ($width * 28) 0 $black,
+    ($width * 8) ($width * 28) 0 $black,
+    ($width * 9) ($width * 28) 0 $black,
+    ($width * 10) ($width * 28) 0 $skin,
+
+    ($width * 2) ($width * 29) 0 $gun-lg,
+    ($width * 3) ($width * 29) 0 $skin,
+    ($width * 4) ($width * 29) 0 $black,
+    ($width * 5) ($width * 29) 0 $black,
+    ($width * 8) ($width * 29) 0 $black,
+    ($width * 9) ($width * 29) 0 $black,
+    ($width * 10) ($width * 29) 0 $skin,
+
+    ($width * 2) ($width * 30) 0 $gun-d,
+    ($width * 3) ($width * 30) 0 $gun-lg,
+    ($width * 4) ($width * 30) 0 $black,
+    ($width * 5) ($width * 30) 0 $black,
+    ($width * 8) ($width * 30) 0 $black,
+    ($width * 9) ($width * 30) 0 $black,
+
+    ($width * 2) ($width * 31) 0 $gun-lg,
+    ($width * 5) ($width * 31) 0 $black,
+    ($width * 8) ($width * 31) 0 $black,
+    ($width * 9) ($width * 31) 0 $black,
+
+    ($width * 2) ($width * 32) 0 $white,
+    ($width * 5) ($width * 32) 0 $black,
+    ($width * 8) ($width * 32) 0 $black,
+    ($width * 9) ($width * 32) 0 $black,
+
+    ($width * 2) ($width * 33) 0 $white,
+    ($width * 5) ($width * 33) 0 $black,
+    ($width * 9) ($width * 33) 0 $black,
+
+    ($width * 5) ($width * 34) 0 $black,
+    ($width * 9) ($width * 34) 0 $black,
+
+    ($width * 5) ($width * 35) 0 $black,
+    ($width * 9) ($width * 35) 0 $black,
+
+    ($width * 5) ($width * 36) 0 $black,
+    ($width * 9) ($width * 36) 0 $black,
+
+    ($width * 5) ($width * 37) 0 $black,
+    ($width * 9) ($width * 37) 0 $black,
+
+    ($width * 5) ($width * 38) 0 $black,
+    ($width * 9) ($width * 38) 0 $black,
+
+    ($width * 5) ($width * 39) 0 $black,
+    ($width * 9) ($width * 39) 0 $black,
+
+    ($width * 5) ($width * 40) 0 $black,
+    ($width * 9) ($width * 40) 0 $black,
+
+    ($width * 2) ($width * 40) 0 $shadow,
+    ($width * 3) ($width * 40) 0 $shadow,
+    ($width * 4) ($width * 40) 0 $shadow,
+    ($width * 5) ($width * 40) 0 $black,
+    ($width * 6) ($width * 40) 0 $shadow,
+    ($width * 7) ($width * 40) 0 $shadow,
+    ($width * 8) ($width * 40) 0 $shadow,
+    ($width * 9) ($width * 40) 0 $black,
+    ($width * 10) ($width * 40) 0 $shadow
+}
+
+@mixin vincent-gun {
+  box-shadow:
+    ($width * 4) ($width * 4) 0 $black,
+    ($width * 5) ($width * 4) 0 $grey,
+    ($width * 6) ($width * 4) 0 $black,
+    ($width * 7) ($width * 4) 0 $grey-d,
+    ($width * 8) ($width * 4) 0 $grey-l,
+
+    ($width * 3) ($width * 5) 0 $black,
+    ($width * 4) ($width * 5) 0 $skin-shadow,
+    ($width * 5) ($width * 5) 0 $skin,
+    ($width * 6) ($width * 5) 0 $skin,
+    ($width * 7) ($width * 5) 0 $black,
+    ($width * 8) ($width * 5) 0 $black,
+
+    ($width * 4) ($width * 6) 0 $skin-shadow,
+    ($width * 5) ($width * 6) 0 $skin,
+    ($width * 6) ($width * 6) 0 $skin,
+    ($width * 7) ($width * 6) 0 $skin,
+    ($width * 8) ($width * 6) 0 $black,
+
+    ($width * 4) ($width * 7) 0 $black,
+    ($width * 5) ($width * 7) 0 $skin,
+    ($width * 6) ($width * 7) 0 $black,
+    ($width * 7) ($width * 7) 0 $skin,
+    ($width * 8) ($width * 7) 0 $black,
+    ($width * 9) ($width * 7) 0 $black,
+
+    ($width * 4) ($width * 8) 0 $skin-shadow,
+    ($width * 5) ($width * 8) 0 $skin,
+    ($width * 6) ($width * 8) 0 $skin,
+    ($width * 7) ($width * 8) 0 $skin,
+    ($width * 8) ($width * 8) 0 $skin,
+
+    ($width * 4) ($width * 9) 0 $skin-shadow,
+    ($width * 5) ($width * 9) 0 $skin-shadow,
+    ($width * 6) ($width * 9) 0 $skin,
+    ($width * 7) ($width * 9) 0 $skin,
+    ($width * 8) ($width * 9) 0 $black,
+
+    ($width * 5) ($width * 10) 0 $black,
+    ($width * 6) ($width * 10) 0 $skin-dark,
+    ($width * 7) ($width * 10) 0 $skin-dark,
+    ($width * 8) ($width * 10) 0 $black,
+    ($width * 9) ($width * 10) 0 $black,
+
+    ($width * 4) ($width * 11) 0 $black,
+    ($width * 5) ($width * 11) 0 $black,
+    ($width * 6) ($width * 11) 0 $skin-shadow,
+    ($width * 7) ($width * 11) 0 $grey-vl,
+    ($width * 8) ($width * 11) 0 $black,
+
+    ($width * 5) ($width * 12) 0 $grey-vl,
+    ($width * 6) ($width * 12) 0 $skin,
+    ($width * 7) ($width * 12) 0 $grey-vl,
+    ($width * 8) ($width * 12) 0 $black,
+
+    ($width * 4) ($width * 13) 0 $black,
+    ($width * 5) ($width * 13) 0 $grey-vl,
+    ($width * 6) ($width * 13) 0 $black,
+    ($width * 7) ($width * 13) 0 $white,
+    ($width * 8) ($width * 13) 0 $black,
+
+    ($width * -13) ($width * 14) 0 $grey-vl,
+    ($width * -12) ($width * 14) 0 $grey-vl,
+    ($width * -11) ($width * 14) 0 $grey-vl,
+    ($width * -10) ($width * 14) 0 $grey-j-l,
+    ($width * -9) ($width * 14) 0 $grey-vl,
+    ($width * 4) ($width * 14) 0 $black,
+    ($width * 5) ($width * 14) 0 $grey-j-l,
+    ($width * 6) ($width * 14) 0 $black,
+    ($width * 7) ($width * 14) 0 $grey-j-l,
+    ($width * 8) ($width * 14) 0 $black,
+
+
+    ($width * -10) ($width * 15) 0 $grey-vl,
+    ($width * -9) ($width * 15) 0 $skin,
+    ($width * -8) ($width * 15) 0 $skin,
+    ($width * -7) ($width * 15) 0 $black,
+    ($width * -6) ($width * 15) 0 $black,
+    ($width * -5) ($width * 15) 0 $black,
+    ($width * -4) ($width * 15) 0 $black,
+    ($width * -3) ($width * 15) 0 $black,
+    ($width * -2) ($width * 15) 0 $black,
+    ($width * -1) ($width * 15) 0 $black,
+    ($width * 0) ($width * 15) 0 $black,
+    ($width * 1) ($width * 15) 0 $black,
+    ($width * 2) ($width * 15) 0 $black,
+    ($width * 3) ($width * 15) 0 $black,
+    ($width * 4) ($width * 15) 0 $black,
+    ($width * 5) ($width * 15) 0 $grey-vl,
+    ($width * 6) ($width * 15) 0 $black,
+    ($width * 7) ($width * 15) 0 $white,
+    ($width * 8) ($width * 15) 0 $black,
+    ($width * 9) ($width * 15) 0 $black,
+
+    ($width * -9) ($width * 16) 0 $black,
+    ($width * 2) ($width * 16) 0 $black,
+    ($width * 3) ($width * 16) 0 $black,
+    ($width * 4) ($width * 16) 0 $black,
+    ($width * 5) ($width * 16) 0 $grey-vl,
+    ($width * 6) ($width * 16) 0 $black,
+    ($width * 7) ($width * 16) 0 $white,
+    ($width * 8) ($width * 16) 0 $black,
+    ($width * 9) ($width * 16) 0 $black,
+
+    ($width * 3) ($width * 17) 0 $black,
+    ($width * 4) ($width * 17) 0 $black,
+    ($width * 5) ($width * 17) 0 $white,
+    ($width * 6) ($width * 17) 0 $black,
+    ($width * 7) ($width * 17) 0 $white,
+    ($width * 8) ($width * 17) 0 $black,
+    ($width * 9) ($width * 17) 0 $black,
+
+    ($width * 3) ($width * 18) 0 $black,
+    ($width * 4) ($width * 18) 0 $black,
+    ($width * 5) ($width * 18) 0 $white,
+    ($width * 6) ($width * 18) 0 $black,
+    ($width * 7) ($width * 18) 0 $white,
+    ($width * 8) ($width * 18) 0 $black,
+    ($width * 9) ($width * 18) 0 $black,
+
+    ($width * 3) ($width * 19) 0 $black,
+    ($width * 4) ($width * 19) 0 $black,
+    ($width * 5) ($width * 19) 0 $white,
+    ($width * 6) ($width * 19) 0 $black,
+    ($width * 7) ($width * 19) 0 $white,
+    ($width * 8) ($width * 19) 0 $black,
+    ($width * 9) ($width * 19) 0 $black,
+
+    ($width * 3) ($width * 20) 0 $black,
+    ($width * 4) ($width * 20) 0 $black,
+    ($width * 5) ($width * 20) 0 $grey-vl,
+    ($width * 6) ($width * 20) 0 $black,
+    ($width * 7) ($width * 20) 0 $white,
+    ($width * 8) ($width * 20) 0 $black,
+    ($width * 9) ($width * 20) 0 $black,
+
+    ($width * 3) ($width * 21) 0 $black,
+    ($width * 4) ($width * 21) 0 $black,
+    ($width * 5) ($width * 21) 0 $grey-vl,
+    ($width * 6) ($width * 21) 0 $black,
+    ($width * 7) ($width * 21) 0 $grey-vl,
+    ($width * 8) ($width * 21) 0 $black,
+    ($width * 9) ($width * 21) 0 $black,
+    ($width * 10) ($width * 21) 0 $black,
+
+    ($width * 3) ($width * 22) 0 $black,
+    ($width * 4) ($width * 22) 0 $black,
+    ($width * 5) ($width * 22) 0 $black,
+    ($width * 6) ($width * 22) 0 $black,
+    ($width * 7) ($width * 22) 0 $black,
+    ($width * 8) ($width * 22) 0 $black,
+    ($width * 9) ($width * 22) 0 $black,
+    ($width * 10) ($width * 22) 0 $black,
+
+    ($width * 3) ($width * 23) 0 $black,
+    ($width * 4) ($width * 23) 0 $black,
+    ($width * 5) ($width * 23) 0 $black,
+    ($width * 6) ($width * 23) 0 $black,
+    ($width * 7) ($width * 23) 0 $black,
+    ($width * 8) ($width * 23) 0 $black,
+    ($width * 9) ($width * 23) 0 $black,
+    ($width * 10) ($width * 23) 0 $black,
+
+    ($width * 3) ($width * 24) 0 $black,
+    ($width * 4) ($width * 24) 0 $black,
+    ($width * 5) ($width * 24) 0 $black,
+    ($width * 6) ($width * 24) 0 $black,
+    ($width * 7) ($width * 24) 0 $black,
+    ($width * 8) ($width * 24) 0 $black,
+    ($width * 9) ($width * 24) 0 $black,
+    ($width * 10) ($width * 24) 0 $black,
+
+    ($width * 3) ($width * 25) 0 $black,
+    ($width * 4) ($width * 25) 0 $black,
+    ($width * 5) ($width * 25) 0 $black,
+    ($width * 8) ($width * 25) 0 $black,
+    ($width * 9) ($width * 25) 0 $black,
+    ($width * 10) ($width * 25) 0 $black,
+
+    ($width * 4) ($width * 26) 0 $black,
+    ($width * 5) ($width * 26) 0 $black,
+    ($width * 8) ($width * 26) 0 $black,
+    ($width * 9) ($width * 26) 0 $black,
+    ($width * 10) ($width * 26) 0 $black,
+
+    ($width * 4) ($width * 27) 0 $black,
+    ($width * 5) ($width * 27) 0 $black,
+    ($width * 8) ($width * 27) 0 $black,
+    ($width * 9) ($width * 27) 0 $black,
+    ($width * 10) ($width * 27) 0 $black,
+
+    ($width * 4) ($width * 28) 0 $black,
+    ($width * 5) ($width * 28) 0 $black,
+    ($width * 8) ($width * 28) 0 $black,
+    ($width * 9) ($width * 28) 0 $black,
+    ($width * 10) ($width * 28) 0 $skin,
+
+    ($width * 4) ($width * 29) 0 $black,
+    ($width * 5) ($width * 29) 0 $black,
+    ($width * 8) ($width * 29) 0 $black,
+    ($width * 9) ($width * 29) 0 $black,
+    ($width * 10) ($width * 29) 0 $skin,
+
+    ($width * 4) ($width * 30) 0 $black,
+    ($width * 5) ($width * 30) 0 $black,
+    ($width * 8) ($width * 30) 0 $black,
+    ($width * 9) ($width * 30) 0 $black,
+
+    ($width * 5) ($width * 31) 0 $black,
+    ($width * 8) ($width * 31) 0 $black,
+    ($width * 9) ($width * 31) 0 $black,
+
+    ($width * 5) ($width * 32) 0 $black,
+    ($width * 8) ($width * 32) 0 $black,
+    ($width * 9) ($width * 32) 0 $black,
+
+    ($width * 5) ($width * 33) 0 $black,
+    ($width * 9) ($width * 33) 0 $black,
+
+    ($width * 5) ($width * 34) 0 $black,
+    ($width * 9) ($width * 34) 0 $black,
+
+    ($width * 5) ($width * 35) 0 $black,
+    ($width * 9) ($width * 35) 0 $black,
+
+    ($width * 5) ($width * 36) 0 $black,
+    ($width * 9) ($width * 36) 0 $black,
+
+    ($width * 5) ($width * 37) 0 $black,
+    ($width * 9) ($width * 37) 0 $black,
+
+    ($width * 5) ($width * 38) 0 $black,
+    ($width * 9) ($width * 38) 0 $black,
+
+    ($width * 5) ($width * 39) 0 $black,
+    ($width * 9) ($width * 39) 0 $black,
+
+    ($width * 5) ($width * 40) 0 $black,
+    ($width * 9) ($width * 40) 0 $black,
+
+    ($width * 2) ($width * 40) 0 $shadow,
+    ($width * 3) ($width * 40) 0 $shadow,
+    ($width * 4) ($width * 40) 0 $shadow,
+    ($width * 5) ($width * 40) 0 $black,
+    ($width * 6) ($width * 40) 0 $shadow,
+    ($width * 7) ($width * 40) 0 $shadow,
+    ($width * 8) ($width * 40) 0 $shadow,
+    ($width * 9) ($width * 40) 0 $black,
+    ($width * 10) ($width * 40) 0 $shadow
+}
+
+@mixin vincent-fire {
+  box-shadow:
+    ($width * 4) ($width * 4) 0 $black,
+    ($width * 5) ($width * 4) 0 $grey,
+    ($width * 6) ($width * 4) 0 $black,
+    ($width * 7) ($width * 4) 0 $grey-d,
+    ($width * 8) ($width * 4) 0 $grey-l,
+
+    ($width * 3) ($width * 5) 0 $black,
+    ($width * 4) ($width * 5) 0 $skin-shadow,
+    ($width * 5) ($width * 5) 0 $skin,
+    ($width * 6) ($width * 5) 0 $skin,
+    ($width * 7) ($width * 5) 0 $black,
+    ($width * 8) ($width * 5) 0 $black,
+
+    ($width * 4) ($width * 6) 0 $skin-shadow,
+    ($width * 5) ($width * 6) 0 $skin,
+    ($width * 6) ($width * 6) 0 $skin,
+    ($width * 7) ($width * 6) 0 $skin,
+    ($width * 8) ($width * 6) 0 $black,
+
+    ($width * 4) ($width * 7) 0 $black,
+    ($width * 5) ($width * 7) 0 $skin,
+    ($width * 6) ($width * 7) 0 $black,
+    ($width * 7) ($width * 7) 0 $skin,
+    ($width * 8) ($width * 7) 0 $black,
+    ($width * 9) ($width * 7) 0 $black,
+
+    ($width * 4) ($width * 8) 0 $skin-shadow,
+    ($width * 5) ($width * 8) 0 $skin,
+    ($width * 6) ($width * 8) 0 $skin,
+    ($width * 7) ($width * 8) 0 $skin,
+    ($width * 8) ($width * 8) 0 $skin,
+
+    ($width * 4) ($width * 9) 0 $skin-shadow,
+    ($width * 5) ($width * 9) 0 $skin-shadow,
+    ($width * 6) ($width * 9) 0 $skin,
+    ($width * 7) ($width * 9) 0 $skin,
+    ($width * 8) ($width * 9) 0 $black,
+
+    ($width * 5) ($width * 10) 0 $black,
+    ($width * 6) ($width * 10) 0 $skin-dark,
+    ($width * 7) ($width * 10) 0 $skin-dark,
+    ($width * 8) ($width * 10) 0 $black,
+    ($width * 9) ($width * 10) 0 $black,
+
+    ($width * 4) ($width * 11) 0 $black,
+    ($width * 5) ($width * 11) 0 $black,
+    ($width * 6) ($width * 11) 0 $skin-shadow,
+    ($width * 7) ($width * 11) 0 $grey-vl,
+    ($width * 8) ($width * 11) 0 $black,
+
+    ($width * 5) ($width * 12) 0 $grey-vl,
+    ($width * 6) ($width * 12) 0 $skin,
+    ($width * 7) ($width * 12) 0 $grey-vl,
+    ($width * 8) ($width * 12) 0 $black,
+
+    ($width * -16) ($width * 13) 0 $white,
+    ($width * 4) ($width * 13) 0 $black,
+    ($width * 5) ($width * 13) 0 $grey-vl,
+    ($width * 6) ($width * 13) 0 $black,
+    ($width * 7) ($width * 13) 0 $white,
+    ($width * 8) ($width * 13) 0 $black,
+
+    ($width * -15) ($width * 14) 0 $white,
+    ($width * -13) ($width * 14) 0 $grey-vl,
+    ($width * -12) ($width * 14) 0 $grey-vl,
+    ($width * -11) ($width * 14) 0 $grey-vl,
+    ($width * -10) ($width * 14) 0 $grey-j-l,
+    ($width * -9) ($width * 14) 0 $grey-vl,
+    ($width * 4) ($width * 14) 0 $black,
+    ($width * 5) ($width * 14) 0 $grey-j-l,
+    ($width * 6) ($width * 14) 0 $black,
+    ($width * 7) ($width * 14) 0 $grey-j-l,
+    ($width * 8) ($width * 14) 0 $black,
+
+    ($width * -16) ($width * 15) 0 $white,
+    ($width * -10) ($width * 15) 0 $grey-vl,
+    ($width * -9) ($width * 15) 0 $skin,
+    ($width * -8) ($width * 15) 0 $skin,
+    ($width * -7) ($width * 15) 0 $black,
+    ($width * -6) ($width * 15) 0 $black,
+    ($width * -5) ($width * 15) 0 $black,
+    ($width * -4) ($width * 15) 0 $black,
+    ($width * -3) ($width * 15) 0 $black,
+    ($width * -2) ($width * 15) 0 $black,
+    ($width * -1) ($width * 15) 0 $black,
+    ($width * 0) ($width * 15) 0 $black,
+    ($width * 1) ($width * 15) 0 $black,
+    ($width * 2) ($width * 15) 0 $black,
+    ($width * 3) ($width * 15) 0 $black,
+    ($width * 4) ($width * 15) 0 $black,
+    ($width * 5) ($width * 15) 0 $grey-vl,
+    ($width * 6) ($width * 15) 0 $black,
+    ($width * 7) ($width * 15) 0 $white,
+    ($width * 8) ($width * 15) 0 $black,
+    ($width * 9) ($width * 15) 0 $black,
+
+    ($width * -9) ($width * 16) 0 $black,
+    ($width * 2) ($width * 16) 0 $black,
+    ($width * 3) ($width * 16) 0 $black,
+    ($width * 4) ($width * 16) 0 $black,
+    ($width * 5) ($width * 16) 0 $grey-vl,
+    ($width * 6) ($width * 16) 0 $black,
+    ($width * 7) ($width * 16) 0 $white,
+    ($width * 8) ($width * 16) 0 $black,
+    ($width * 9) ($width * 16) 0 $black,
+
+    ($width * 3) ($width * 17) 0 $black,
+    ($width * 4) ($width * 17) 0 $black,
+    ($width * 5) ($width * 17) 0 $white,
+    ($width * 6) ($width * 17) 0 $black,
+    ($width * 7) ($width * 17) 0 $white,
+    ($width * 8) ($width * 17) 0 $black,
+    ($width * 9) ($width * 17) 0 $black,
+
+    ($width * 3) ($width * 18) 0 $black,
+    ($width * 4) ($width * 18) 0 $black,
+    ($width * 5) ($width * 18) 0 $white,
+    ($width * 6) ($width * 18) 0 $black,
+    ($width * 7) ($width * 18) 0 $white,
+    ($width * 8) ($width * 18) 0 $black,
+    ($width * 9) ($width * 18) 0 $black,
+
+    ($width * 3) ($width * 19) 0 $black,
+    ($width * 4) ($width * 19) 0 $black,
+    ($width * 5) ($width * 19) 0 $white,
+    ($width * 6) ($width * 19) 0 $black,
+    ($width * 7) ($width * 19) 0 $white,
+    ($width * 8) ($width * 19) 0 $black,
+    ($width * 9) ($width * 19) 0 $black,
+
+    ($width * 3) ($width * 20) 0 $black,
+    ($width * 4) ($width * 20) 0 $black,
+    ($width * 5) ($width * 20) 0 $grey-vl,
+    ($width * 6) ($width * 20) 0 $black,
+    ($width * 7) ($width * 20) 0 $white,
+    ($width * 8) ($width * 20) 0 $black,
+    ($width * 9) ($width * 20) 0 $black,
+
+    ($width * 3) ($width * 21) 0 $black,
+    ($width * 4) ($width * 21) 0 $black,
+    ($width * 5) ($width * 21) 0 $grey-vl,
+    ($width * 6) ($width * 21) 0 $black,
+    ($width * 7) ($width * 21) 0 $grey-vl,
+    ($width * 8) ($width * 21) 0 $black,
+    ($width * 9) ($width * 21) 0 $black,
+    ($width * 10) ($width * 21) 0 $black,
+
+    ($width * 3) ($width * 22) 0 $black,
+    ($width * 4) ($width * 22) 0 $black,
+    ($width * 5) ($width * 22) 0 $black,
+    ($width * 6) ($width * 22) 0 $black,
+    ($width * 7) ($width * 22) 0 $black,
+    ($width * 8) ($width * 22) 0 $black,
+    ($width * 9) ($width * 22) 0 $black,
+    ($width * 10) ($width * 22) 0 $black,
+
+    ($width * 3) ($width * 23) 0 $black,
+    ($width * 4) ($width * 23) 0 $black,
+    ($width * 5) ($width * 23) 0 $black,
+    ($width * 6) ($width * 23) 0 $black,
+    ($width * 7) ($width * 23) 0 $black,
+    ($width * 8) ($width * 23) 0 $black,
+    ($width * 9) ($width * 23) 0 $black,
+    ($width * 10) ($width * 23) 0 $black,
+
+    ($width * 3) ($width * 24) 0 $black,
+    ($width * 4) ($width * 24) 0 $black,
+    ($width * 5) ($width * 24) 0 $black,
+    ($width * 6) ($width * 24) 0 $black,
+    ($width * 7) ($width * 24) 0 $black,
+    ($width * 8) ($width * 24) 0 $black,
+    ($width * 9) ($width * 24) 0 $black,
+    ($width * 10) ($width * 24) 0 $black,
+
+    ($width * 3) ($width * 25) 0 $black,
+    ($width * 4) ($width * 25) 0 $black,
+    ($width * 5) ($width * 25) 0 $black,
+    ($width * 8) ($width * 25) 0 $black,
+    ($width * 9) ($width * 25) 0 $black,
+    ($width * 10) ($width * 25) 0 $black,
+
+    ($width * 4) ($width * 26) 0 $black,
+    ($width * 5) ($width * 26) 0 $black,
+    ($width * 8) ($width * 26) 0 $black,
+    ($width * 9) ($width * 26) 0 $black,
+    ($width * 10) ($width * 26) 0 $black,
+
+    ($width * 4) ($width * 27) 0 $black,
+    ($width * 5) ($width * 27) 0 $black,
+    ($width * 8) ($width * 27) 0 $black,
+    ($width * 9) ($width * 27) 0 $black,
+    ($width * 10) ($width * 27) 0 $black,
+
+    ($width * 4) ($width * 28) 0 $black,
+    ($width * 5) ($width * 28) 0 $black,
+    ($width * 8) ($width * 28) 0 $black,
+    ($width * 9) ($width * 28) 0 $black,
+    ($width * 10) ($width * 28) 0 $skin,
+
+    ($width * 4) ($width * 29) 0 $black,
+    ($width * 5) ($width * 29) 0 $black,
+    ($width * 8) ($width * 29) 0 $black,
+    ($width * 9) ($width * 29) 0 $black,
+    ($width * 10) ($width * 29) 0 $skin,
+
+    ($width * 4) ($width * 30) 0 $black,
+    ($width * 5) ($width * 30) 0 $black,
+    ($width * 8) ($width * 30) 0 $black,
+    ($width * 9) ($width * 30) 0 $black,
+
+    ($width * 5) ($width * 31) 0 $black,
+    ($width * 8) ($width * 31) 0 $black,
+    ($width * 9) ($width * 31) 0 $black,
+
+    ($width * 5) ($width * 32) 0 $black,
+    ($width * 8) ($width * 32) 0 $black,
+    ($width * 9) ($width * 32) 0 $black,
+
+    ($width * 5) ($width * 33) 0 $black,
+    ($width * 9) ($width * 33) 0 $black,
+
+    ($width * 5) ($width * 34) 0 $black,
+    ($width * 9) ($width * 34) 0 $black,
+
+    ($width * 5) ($width * 35) 0 $black,
+    ($width * 9) ($width * 35) 0 $black,
+
+    ($width * 5) ($width * 36) 0 $black,
+    ($width * 9) ($width * 36) 0 $black,
+
+    ($width * 5) ($width * 37) 0 $black,
+    ($width * 9) ($width * 37) 0 $black,
+
+    ($width * 5) ($width * 38) 0 $black,
+    ($width * 9) ($width * 38) 0 $black,
+
+    ($width * 5) ($width * 39) 0 $black,
+    ($width * 9) ($width * 39) 0 $black,
+
+    ($width * 5) ($width * 40) 0 $black,
+    ($width * 9) ($width * 40) 0 $black,
+
+    ($width * 2) ($width * 40) 0 $shadow,
+    ($width * 3) ($width * 40) 0 $shadow,
+    ($width * 4) ($width * 40) 0 $shadow,
+    ($width * 5) ($width * 40) 0 $black,
+    ($width * 6) ($width * 40) 0 $shadow,
+    ($width * 7) ($width * 40) 0 $shadow,
+    ($width * 8) ($width * 40) 0 $shadow,
+    ($width * 9) ($width * 40) 0 $black,
+    ($width * 10) ($width * 40) 0 $shadow
+}
+
+.pulp-fiction {
+  height: 40 * $width;
+  width: 20 * $width;
+}
+
+.vincent {
+  display: inline-block;
+  position: relative;
+  width: $width;
+  height: $width;
+}
+
+.pf-vincent-1 {
+  @include vincent-1;
+}
+
+.pf-vincent-gun {
+  @include vincent-gun;
+}
+
+.pf-vincent-fire {
+  @include vincent-fire;
+}
+
+.jules {
+  display: inline-block;
+  position: relative;
+  left: $width * 9;
+  width: $width;
+  height: $width;
+}
+
+.pf-jules-1 {
+  @include jules-1;
+}
+
+.pf-jules-gun {
+  @include jules-gun;
+}
+
+.pf-jules-fire {
+  @include jules-fire;
+}
