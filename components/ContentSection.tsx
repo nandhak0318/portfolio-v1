@@ -12,7 +12,7 @@ export default function ContentSection(){
     <Experience/>
     <Projects/>
     <footer className="flex justify-between">
-      <h5 className="aachen-bold text-7xl">NOW HIRE ME!</h5>
+      <h5 className="aachen-bold text-7xl sm:text-xl">NOW HIRE ME!</h5>
       <PulpFictionAnimation/>
     </footer>
     </main>
