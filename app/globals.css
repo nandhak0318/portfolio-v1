@@ -81,3 +81,10 @@ html {
     mix-blend-mode: screen;
     background: white;
 }
+
+
+.project-table{
+      width: 100%;
+      border-collapse: collapse;
+      border: 2px solid #957DAD;
+}

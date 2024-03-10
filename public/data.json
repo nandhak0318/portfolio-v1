@@ -1,6 +1,7 @@
 {
   "resume":"/resume.pdf",
   "projects":[{
+    "year":2023,
     "name":"Sheet menu",
     "link":"https://sheet-menu.vercel.app/",
     "desc":"A WebApp that make you a delightful menu from google sheets with Qr",
