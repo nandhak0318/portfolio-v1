@@ -1,6 +1,16 @@
 {
   "resume":"/nandha_resume.pdf",
   "projects":[{
+    "year":2024,
+    "name":"Player pirate",
+    "link":"https://player-pirate.vercel.app/",
+    "desc":"Player Pirate is a versatile video player that supports MKV and other video files with subtitles. Features include subtitle delay adjustment, 2x playback, and resume functionality.",
+    "source":"",
+    "img":"/images/sheetmenu.png",
+    "techTags":["Js","Wasm"],
+    "selected":true
+  },
+  {
     "year":2023,
     "name":"Sheet menu",
     "link":"https://sheet-menu.vercel.app/",
