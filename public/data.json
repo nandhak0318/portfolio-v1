@@ -10,27 +10,27 @@
     "techTags":["Js","Wasm"],
     "selected":true
   },
-  {
-    "year":2023,
-    "name":"Sheet menu",
-    "link":"https://sheet-menu.vercel.app/",
-    "desc":"A WebApp that make you a delightful menu from google sheets with Qr",
-    "source":"",
-    "img":"/images/sheetmenu.png",
-    "techTags":["Next.Js","Prisma","Google sheets Api","PostgresSQL"],
-    "selected":true
-  }],
+  ],
   "experiences":[
       {
         "time": "Nov 2023 - Present",
-        "name": "Associate Engineer",
+        "name": "Software Engineer",
         "role": "Hash Agile Technologies",
-        "desc": "Architected and developed multiple applications, including a Smart Saline System, Posture Detection System, and MQTT Crawler in a short timeframe, helped me to get expertise in Node.js and improve my overall software development proficiency. Worked closely with software and hardware team on building software projects, assisting technical leads and fellows with architecture discussions and investigating design tradeoffs.",
+        "desc": "Designed and developed scalable, microservices-based backend systems using Spring Boot and NestJS, implementing RESTful APIs and handling complex business logic across distributed services.",
         "link": "",
         "techTags": [
-          "Node.js",
+          "Microservices",
           "Software Development",
-          "Architecture"
+          "Architecture",
+          "Spring boot",
+          "Nest js",
+          "Express js",
+          "Node.js",
+          "Mongodb",
+          "Postgres sql",
+          "Angular Js",
+          "Vue Js",
+          "React Js",
         ]
         
       },
