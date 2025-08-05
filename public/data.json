@@ -9,7 +9,7 @@
     "img":"/images/sheetmenu.png",
     "techTags":["Js","Wasm"],
     "selected":true
-  },
+  }
   ],
   "experiences":[
       {
@@ -30,7 +30,7 @@
           "Postgres sql",
           "Angular Js",
           "Vue Js",
-          "React Js",
+          "React Js"
         ]
         
       },
